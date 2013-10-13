@@ -10,6 +10,6 @@ ntpdate pool.ntp.org
 # Restart the package
 systemctl start ntpd
 
-echo ‘src/gz angstrom-base http://www.angstrom-distribution.org/feeds/unstable/ipk/glibc/armv7a/base’ > /etc/opkg/angstrom-base.conf
+echo 'src/gz angstrom-base http://www.angstrom-distribution.org/feeds/unstable/ipk/glibc/armv7a/base' > /etc/opkg/angstrom-base.conf
 opkg update
 
